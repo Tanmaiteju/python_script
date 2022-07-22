@@ -1,0 +1,64 @@
+For Loop
+#!/usr/bin/python
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  
+While Loop: 
+#!/usr/bin/python
+i = 1
+while i < 6:
+  print(i)
+  i += 1  
+  
+Break:  
+#!/usr/bin/python
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1  
+  
+  
+Function:
+def my_function():
+  print("Hello from a function")
+
+
+Calling a Function
+To call a function, use the function name followed by parenthesis:
+#!/usr/bin/python
+def my_function():
+  print("Hello from a function")
+my_function()  
+  
+  
+Arguments
+Information can be passed into functions as arguments.
+#!/usr/bin/python
+def my_function(fname):
+  print(fname + " is one linux type of OS")
+my_function("ubuntu")
+my_function("centos")
+my_function("fedora")
+  
+Print() Function:
+print("Welcome")  
+print("To")  
+print("srimanit")  
+
+ex:1
+list1 = [10,11,12,13,14,15]  
+for i in list1:  
+    print(i, end = " ")  
+
+10 11 12 13 14 15
+
+
+ex:2
+list1 = [10,11,12,13,14,15]  
+for i in list1:  
+    print(i,end = "&")  
+
+10&11&12&13&14&15&
